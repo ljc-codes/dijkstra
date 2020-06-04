@@ -3,8 +3,6 @@
 
   Description: README file.
 
-  Author: Luigi Charles (ljc2165)
-
   _____________________________________________________________________
 
   Files Submitted / Description / Compilation and Run Instructions:
