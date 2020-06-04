@@ -1,12 +1,9 @@
-/***********************************************************************
 
   FileName: README.txt
 
   Description: README file.
 
   Author: Luigi Charles (ljc2165)
-
-  Course: Data Structures and Algorithm Analysis - Homework 5
 
   _____________________________________________________________________
 
@@ -52,25 +49,7 @@
       java Display
   _____________________________________________________________________
 
-  6) File Name: written.pdf
-
-    Description: pdf of written problems
-
-    Compilation and Run Instructions: N/A
-
-  _____________________________________________________________________
-
-  7) File Name: README.txt
-
-    Description: meta
-
-    Compilation and Run Instructions: N/A
-
-  _____________________________________________________________________
-
-  8) Additional Data files:
+  3) Additional Data files:
   citypairs.txt - edges for vertices
   cityxy.txt - x,y coordinates of cities.
 
-
-***********************************************************************/
