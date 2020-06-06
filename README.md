@@ -27,3 +27,6 @@ The app includes a few scripts.
 
 ## Dependencies
 - [Java](https://www.java.com/en/)
+
+## Screenshot
+![Alt text](/screenshots/img_1.png "Graph")
