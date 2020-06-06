@@ -16,13 +16,8 @@ The repository includes some sample data of US states. Inside "app/data" there a
 The app includes a few scripts. 
 
 ```sh
-# compile java objects
+# compiles java objects and runs program.
 ./app/scripts/compile.sh
-```
-
-```sh
-# run dijkstra app
-./app/scripts/run.sh
 ```
 
 ## Dependencies
