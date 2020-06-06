@@ -1,5 +1,5 @@
-echo ">>> Dijkstra run start <<<";
+echo "> Dijkstra run start";
 cd ./app/bin;
-echo "    - Display starting...";
+echo "  -> Display starting...";
 java Display;
-echo ">>> Dijkstra compile end <<< ";
+echo "> Dijkstra compile end ";
