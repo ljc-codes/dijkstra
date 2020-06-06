@@ -1,5 +1,5 @@
 
-# dijkstra: Compute djstras algorithm on arbitrary graphs.
+# dijkstra: Compute dijkstra algorithm on arbitrary graphs.
 
 ## What is it?
 
