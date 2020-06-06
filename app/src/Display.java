@@ -122,7 +122,7 @@ public class Display extends JFrame {
     gbl_contentPane.rowWeights = new double[] { 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE };
     contentPane.setLayout(gbl_contentPane);
 
-    dijkstra = readGraph("cityxy.txt", "citypairs.txt");
+    dijkstra = readGraph("../data/xy.txt", "../data/pairs.txt");
 
     panel = new GraphPanel(dijkstra);
     GridBagConstraints gbc_panel = new GridBagConstraints();
@@ -160,7 +160,7 @@ public class Display extends JFrame {
     contentPane.add(lblReloadGraph, gbc_lblReloadGraph);
 
     txtCityxytxt = new JTextField();
-    txtCityxytxt.setText("cityxy.txt");
+    txtCityxytxt.setText("../data/xy.txt");
     GridBagConstraints gbc_txtCityxytxt = new GridBagConstraints();
     gbc_txtCityxytxt.gridwidth = 2;
     gbc_txtCityxytxt.insets = new Insets(0, 0, 5, 5);
@@ -171,7 +171,7 @@ public class Display extends JFrame {
     txtCityxytxt.setColumns(10);
 
     txtCitypairstxt = new JTextField();
-    txtCitypairstxt.setText("citypairs.txt");
+    txtCitypairstxt.setText("../data/pairs.txt");
     GridBagConstraints gbc_txtCitypairstxt = new GridBagConstraints();
     gbc_txtCitypairstxt.gridwidth = 2;
     gbc_txtCitypairstxt.insets = new Insets(0, 0, 5, 5);

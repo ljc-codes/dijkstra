@@ -273,8 +273,8 @@ public class Dijkstra {
    * You can modify this method to test your code on the command line.
    */
   public static void main(String[] argv) throws IOException {
-    String vertexFile = "cityxy.txt";
-    String edgeFile = "citypairs.txt";
+    String vertexFile = "../data/xy.txt";
+    String edgeFile = "../data/pairs.txt";
 
     Dijkstra dijkstra = new Dijkstra();
     String line;
