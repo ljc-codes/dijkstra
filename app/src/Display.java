@@ -279,13 +279,13 @@ public class Display extends JFrame {
     gbc_btnDrawWeightedShortest.gridy = 5;
     contentPane.add(btnDrawWeightedShortest, gbc_btnDrawWeightedShortest);
 
-    JLabel lblPanda = new JLabel("Panda 2016 <http://linanqiu.github.io/>");
+    JLabel lblPanda = new JLabel("");
     lblPanda.setForeground(UIManager.getColor("TextField.light"));
     lblPanda.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseReleased(MouseEvent e) {
         try {
-          Desktop.getDesktop().browse(new URI("http://linanqiu.github.io/"));
+          Desktop.getDesktop().browse(new URI(""));
         } catch (IOException e1) {
           // TODO Auto-generated catch block
           e1.printStackTrace();
