@@ -9,9 +9,8 @@ with some distance function for each edge. The program also features a java gui 
 ## Data
 The repository includes some sample data of US states. Inside "app/data" there are two files:
 
-  - pairs.txt - defines edges and implicitly nodes. 
+  - pairs.txt - defines verticies (V) and edges (E). 
   - xy.txt - defines distance metric between edges.  
-  
 
 ## Running the Program
 The app includes a few scripts. 
