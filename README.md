@@ -17,7 +17,7 @@ The app includes a few scripts.
 
 ```sh
 # compiles java objects and runs program.
-./app/scripts/compile.sh
+./launch.sh
 ```
 
 ## Dependencies
